@@ -1,0 +1,23 @@
+{
+  "name": "ts-node-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node --env-file=.env ./dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.16",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@langchain/community": "^0.0.26",
+    "cheerio": "^1.0.0-rc.12",
+    "langchain": "^0.1.12"
+  }
+}
